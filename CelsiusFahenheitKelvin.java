@@ -7,11 +7,11 @@ public class CelsiusFahenheitKelvin {
         float i=scn.nextFloat();
 
         float F=(((float)1.8*i)+(float)32);
-        System.out.println("Celsius to Farenheit= "+ F +" Fahrenheit");
+        System.out.println(i+" Celsius = "+ F +" Fahrenheit");
 
         float K= i + 273;
 
-        System.out.println("Celsius to Kelvin= "+ K +" Kelvin");
+        System.out.println(i+" Celsius = "+ K +" Kelvin");
 
     }
 }
