@@ -6,9 +6,7 @@ public class WeekDays {
         System.out.println("Enter weekday num:");
         int weekdaynum= scn.nextInt();
 
-        if(weekdaynum>=1 && weekdaynum<=7)
-        {
-            switch (weekdaynum) {
+        switch (weekdaynum) {
                 case 1:
                     System.out.println("Sunday");
                     break;
@@ -30,8 +28,10 @@ public class WeekDays {
                 case 7:
                     System.out.println("Saturday");
                     break;
+                default:
+                    System.out.println("This no is invalid");
 
             }
-        }
+
     }
 }
